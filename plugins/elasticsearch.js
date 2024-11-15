@@ -3,7 +3,7 @@ import fp from 'fastify-plugin'
 import { Client } from '@elastic/elasticsearch'
 
 /**
- * A tipical usage of a plugin, is to expose an external service,
+ * A typical usage of a plugin, is to expose an external service,
  * such as a database. In this case we are exposing the Elasticsearch client
  * since the application uses elasticsearch as main datastore.
  * As you will see, inside this plugin we are not only exposing the
