@@ -12,7 +12,7 @@ import { join } from 'desm'
  * import it in our testing suite and add this application as a subcomponent
  * of another Fastify application. The encapsulaton system, of Fastify will make sure
  * that you are not leaking dependencies and business logic.
- * For more info, see https://www.fastify.io/docs/latest/Encapsulation/
+ * For more info, see https://fastify.dev/docs/latest/Reference/Encapsulation
  */
 export default async function (fastify, opts) {
   // It's very common to pass secrets and configuration
